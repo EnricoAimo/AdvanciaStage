@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Prova uno con bottone</title>
+</head>
+<body>
+	<form action="/PrimaProva/PrimoServlet" method ="get" id="vaiGazza" >
+		<p> <label>Clicca quì
+			<input type="submit" value="vai sulla gazza" />
+		</label></p>
+	</form>
+	<br>
+	<form action="/PrimaProva/PrimoServlet" method ="post" id="invioGet" >
+		<p> <label>Clicca quì 
+			<input type="text" name="testoP" />
+			<input type="text" name="testoP2" />
+			<input type="text" name="testoP3" />
+			<input type="submit" value="Ottieni risposta Post" />
+		</label></p>
+	</form>
+	<form action="/PrimaProva/PrimoJsp.jsp" method ="post" id="oroligio" >
+		<p> <label>Clicca quì 
+			<input type="text" name="testoO" />
+			<input type="submit" value="Ottieni ora jsp" />
+		</label></p>
+	</form>
+	
+	<%  %>
+</body>
+</html>
