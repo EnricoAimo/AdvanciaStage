@@ -1,0 +1,7 @@
+com\jaxws\series\top\down\approach\service\BookServiceImpl.class
+in\benchresources\services\bookservice\BookService.class
+in\benchresources\services\bookservice\IBookService.class
+in\benchresources\entities\book\BookResponseType.class
+in\benchresources\entities\book\package-info.class
+in\benchresources\entities\book\BookRequestType.class
+in\benchresources\entities\book\ObjectFactory.class
